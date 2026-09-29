@@ -1,0 +1,18 @@
+node_modules/
+.next/
+.env*
+.vercel
+public/uploads/
+next-dev.log
+tsconfig.tsbuildinfo
+dev-server.log
+scripts/
+
+# backups locais
+data/*.bak
+data/content.json.*
+data/kv-backup-*
+
+# mídias geradas por scripts/import-work.mjs (388MB) — hospedar fora do git antes do deploy
+/public/work/
+.cache/
